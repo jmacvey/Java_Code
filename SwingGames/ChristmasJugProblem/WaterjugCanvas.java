@@ -36,7 +36,7 @@ import javax.swing.Timer;
  * The WaterjugCanvas class provides primitive static and animated graphics for
  * the Waterjug problem.
  *
- * @author Joshua MacVey, CS2511 Sec 003
+ * @author jmacvey
  */
 public class WaterjugCanvas extends Canvas
 {
