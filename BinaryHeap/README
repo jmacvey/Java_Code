@@ -9,5 +9,7 @@ Addition and Removal of minimum Binary heaps may be done in a variety of ways.
 		- I laid it out keeping in mind basic structure of algorithms like MergeSort.  I let HeapSwap do the heavy duty work.
 		- Many cases need to be checked.  Best to just look at the code to see for yourself.
 
+Of course, we need a way to test the maintenance of the heap properties after the heap has been added to or removed from.  This is done through another recursive algorithm.  It's not much, but it brought me back to days of coding Binary Search Trees.  Same concept, but slight variation.
+
 Any questions, e-mail.
 
