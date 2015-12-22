@@ -1,4 +1,4 @@
-Okay, so I couldn't have but notice that when someone says "Decorate your program," I might go a bit harder than most people.  Yes, yes, vector graphics are all that this program required, but I took the liberty of spicing things up by using Java's own raster-blaster classes to paint some open-source resources to the picture in the form of mistletoe. I also fill the jugs with candycanes upon user actions and have tons of snowflakes falling actross the screen randomly (to create a blizzard effect).  Essentially this just meant implementing parallel arrays of snowflakes and their velocities,and then wrapping them around the screen.  Updates done to the velocities were done using random double arithmetic provided by Java's "Random" package.  Pretty easy stuff, but fun enough that I had my 8 year old sister and her friends raving over thanksgiving and wishing xmas was around the corner.  
+Okay, so I couldn't help but notice that when someone says "Decorate your program," I might go a bit harder than most people.  Yes, yes, vector graphics are all that this program required, but I took the liberty of spicing things up by using Java's own raster-blaster classes to paint some open-source resources to the picture in the form of mistletoe. I also fill the jugs with candycanes upon user actions and have tons of snowflakes falling actross the screen randomly (to create a blizzard effect).  Essentially this just meant implementing parallel arrays of snowflakes and their velocities,and then wrapping them around the screen.  Updates done to the velocities were done using random double arithmetic provided by Java's "Random" package.  Pretty easy stuff, but fun enough that I had my 8 year old sister and her friends raving over thanksgiving and wishing xmas was around the corner.  
 
 I was thinking about adding a slider to the code to control how dense the blizzard was, but then I realized I had to go eat. 
 
@@ -6,6 +6,7 @@ I was thinking about adding a slider to the code to control how dense the blizza
 
 	- code uses the framework you can find in the "framework" directory.
 	- DFS/BFS or A* algorithms aren't really necessary here, since the search space is so small.
+	- If I were to do this again, I'd use streams.  They really are just that much easier to work with than iteration in Java 8.
 
 - Ah yeah, I included some JUnit tests just for kicks.  Testing on this particular piece wasn't very hard, and really after testing the initial classes the GUI always must be tested simply by clicking on everything everywhere.
 
