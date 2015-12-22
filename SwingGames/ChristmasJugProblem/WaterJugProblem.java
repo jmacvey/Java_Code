@@ -15,7 +15,7 @@ import java.util.Arrays;
  * This class inherits the <b>setIntroduction(), setCurrentState()</b>, and
  * <b>setMoves()</b> methods from its parent
  * and thus it should not have any instance fields for these attributes.
- * @author Joshua MacVey, CS2511 Sec 003, Assignment 2
+ * @author jmacvey
  */
 public class WaterJugProblem extends Problem {
 
