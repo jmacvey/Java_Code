@@ -8,7 +8,7 @@ import graph.SimpleVertex;
  * jug states, tests states for equality, and produces string representations of
  * them. Note that this class implements the <b>State</b> interface and
  * therefore imports <b>framework.State</b>.
- * @author Joshua MacVey, CS2511 Sec 003, Assignment 2
+ * @author jmacvey
  */
 public class WaterJugState extends SimpleVertex implements State
 {
