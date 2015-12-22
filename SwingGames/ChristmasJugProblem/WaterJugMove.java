@@ -12,7 +12,7 @@ import framework.State;
  * therefore imports <b>framework.Move</b>.
  * This class inherits the <b>getMoveName()</b> method from its parent
  * and thus it should not have an instance field for the move name.
- * @author Joshua MacVey, CS2511 Sec 003, Assignment 2
+ * @author jmacvey
 */
 public class WaterJugMove extends Move {
 
