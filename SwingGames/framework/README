@@ -1,0 +1,26 @@
+This directory contains the framework designed for some games I implemented in Swing (yes, yes, I know it's obsolete now... can't a guy have any fun?).  One of the particularly challenging parts of this implementation was the GUI.  Since I didn't know swing, I was forced to time and time again usea gridded notebook to sketch and estimate ratios necessary (all ratios are based ultimately on monitor size).  
+
+There were good exercises in:
+	- FontMetrics
+	- Layouts (I used the more powerful GridBagLayout in GUI.java for its convenience -- it's not too complex, either)
+	- Graphics Contexts (Some good java classes do this for you.  Made me feel a little bad I wasn't having to offscreen buffer my own contexts like in Win32.  Work saved.  Love lost.  Shucks.)
+	- EventListeners (This is, again, much easier than in Win32)
+	- Timers 
+
+
+Search Algorithms implemented:
+	- Wanted to provide user with way of letting computer track the game's completion.  Did with first without heuristics, and then with heuristics.  If you're not sure what a heuristic is, it's definitely worth looking up.  Anyway, I implemented the following algorithms:
+
+		- BFS/DFS search algorithms with state space trees
+		
+		- A* Search Algorithm with State Space trees
+
+		- Enhanced A* search algorithm with hash tables (crowd goes "oooooohhhh" and "ahhhhhhhh")
+
+	- Some things you should know: I represent all nodes in the search tree with a class called vertices.  These vertices are like doubly linked nodes in the sense that they track their children and their parents.  I've always meant to implement a doubly-linked list, but I suppose this is the better, "cooler" way to do it. 
+
+	- A cool fact: when you get into the tedious things that don't require that much memory and speed gains are negligible, just use recursion.  Implemented in so much less time, and speed isn't really an issue.
+
+	- Note to self: in hindsight, I should have put all the search algorithm stuff in another class. Now I see why the C++ standrad has <algorithms> in its own directory.  Code bloat...
+ 
+As always, any questions just e-mail.
